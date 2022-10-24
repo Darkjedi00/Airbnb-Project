@@ -1,0 +1,16 @@
+---
+title: "data test"
+author: "Billy Linares"
+date: "2022-10-24"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+```{r}
+au_list_summary = read.csv("Austin_listings_Summary.csv")
+```
+
